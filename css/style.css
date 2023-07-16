@@ -2,22 +2,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
     
+}
+body {
+    background-color:  yellowgreen;
 }
 .logo {
     display: inline-block;
     position: relative;
     right: 100px;
     top: 10px;
-    color: red;
-    font-size: 65px;
-    border: 1px solid red;
+    color: black;
+    font-size: 80px;
+    border: 1px solid yellow;
+    right: 300px;
 
 
 }
 .logo:hover {
-    color: red;
+    color: yellow
 }
 .search {
     display: inline-block;
@@ -31,56 +36,135 @@
 .faviortes {
     display: inline-block;
     position: relative;
-    top: -100px;
-    left: 400px;
+    top: 40px;
+    right: 30px;
     cursor: pointer;
     color: black;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    text-align: center;
+    justify-content: center;
 
 
 }
 .most_viewed {
     display: inline-block;
     position: relative;
-    top: -100px;
-    left: 500px;
+    top: -90px;
+    left: 700px;
     text-decoration: none;
     color: black;
     font-weight: bold;
     cursor: pointer;
     font-size: 20px;
+    padding: 6px;
+    text-align: center;
+    justify-content: center;
+    
 }
 .reviews {
     display: inline-block;
     position: relative;
-    top: -120px;
+    bottom: 86px;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    left: 745px;
+    left: 700px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
 
 }
 .profile {
     display: inline-block;
     position: relative;
-    top : 100px;
+    bottom: 85px;
     color: black;
     font-size : 20px;
     text-decoration: none;
-    left: 500px;
+    left: 950px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.premiuim {
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    top: -80px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    left: 1000px;
+
 }
 .food_img {
     display: inline-block;
     position: relative;
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 200%
 
 }
 .lunch_img {
     display: inline-block;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 200%;
+    top: 30px;
+}
+.dinner {
+    display: inline-block;
+    position: relative;
+    height:auto;
+    width: 200%;
+}
+.whatsapp {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -160px;
+
+
+}
+
+.facebook {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: -150px;
+}
+.twitter {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+.instragram {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 100px;
+
+}
+.contact-link {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    right: 120px;
+    text-decoration: none; 
+
+}
+.download {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    left: -200px;
+    width: 100%;
+
 }
