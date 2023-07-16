@@ -163,8 +163,8 @@ body {
 .download {
     display: inline-block;
     position: relative;
-    top: 40px;
-    left: -200px;
+    top: 50px;
+    left: -250px;
     width: 100%;
 
 }
