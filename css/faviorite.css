@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.fish {
+    display: inline-block;
+    position: relative;
+    top: 40px;
+}
+.review3_header {
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+    right:40px;
+}
