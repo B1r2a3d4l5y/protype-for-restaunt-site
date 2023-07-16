@@ -70,3 +70,36 @@ footer {
     right: 90px ;
 
 }
+.email_header {
+    display: inline-block;
+    position: relative;
+    
+}
+.errorname {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+
+}
+.errorEmail {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    font-size: 15px;
+}
+.phoneErr {
+    display: inline-block;
+    position: relative;
+    top : 15px;
+    font-size: 15px;
+    left: 40px;
+}
+.messageErr {
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    font-size: 15px;
+    left: 400px;
+
+}
