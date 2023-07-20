@@ -92,22 +92,27 @@ body {
     display: inline-block;
     position: relative;
     height: auto;
-    width: 200%;
-    margin: 10px;
+    width: 100%;
+    margin: 5px;
 
 }
 .lunch_img {
     display: inline-block;
     position: relative;
     height: auto;
-    width: 200%;
-    top: 30px;
+    width: 100%;
+    top: -5px;
 }
 .dinner {
     display: inline-block;
     position: relative;
     height:auto;
-    width: 200%;
+    width: 100%;
+}
+.socials {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
 }
 .whatsapp {
     display: inline-block;
@@ -136,6 +141,11 @@ body {
     top: 50px;
     right: 100px;
 
+}
+.contact_us {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
 }
 .contact-link {
     display: inline-block;
