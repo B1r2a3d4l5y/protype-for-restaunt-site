@@ -16,8 +16,7 @@ body {
     top: 10px;
     color: black;
     font-size: 80px;
-    border: 1px solid yellow;
-    right: 300px;
+    right: 10px;
 
 
 }
@@ -27,7 +26,7 @@ body {
 .search {
     display: inline-block;
     position: relative;
-    top: -50px;
+    top: -5px;
     left: 400px;
     width: 170%  ;
     padding: 10px;
@@ -36,8 +35,8 @@ body {
 .faviortes {
     display: inline-block;
     position: relative;
-    top: 40px;
-    right: 30px;
+    top: 105px;
+    right: 545px;
     cursor: pointer;
     color: black;
     text-decoration: none;
@@ -48,29 +47,15 @@ body {
 
 
 }
-.most_viewed {
-    display: inline-block;
-    position: relative;
-    top: -90px;
-    left: 700px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 20px;
-    padding: 6px;
-    text-align: center;
-    justify-content: center;
-    
-}
+
 .reviews {
     display: inline-block;
     position: relative;
-    bottom: 86px;
+    bottom: 10px;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    left: 700px;
+    left: 150px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
@@ -80,11 +65,11 @@ body {
 .profile {
     display: inline-block;
     position: relative;
-    bottom: 85px;
+    bottom: 10px;
     color: black;
     font-size : 20px;
     text-decoration: none;
-    left: 950px;
+    left: 200px;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -98,11 +83,11 @@ body {
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    top: -80px;
+    top: -10px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    left: 1000px;
+    left: 250px;
 
 }
 .food_img {
