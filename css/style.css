@@ -164,7 +164,8 @@ body {
 .download {
     display: inline-block;
     position: relative;
-    top: 40px;
+    top: 50px;
     right: 140px;
+    width: 100px;
 
 }
