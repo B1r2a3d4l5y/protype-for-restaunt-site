@@ -26,17 +26,18 @@ body {
 .search {
     display: inline-block;
     position: relative;
-    top: 2px;
-    left: 50px;
+    bottom: -20px;
+    right: 30px;
     width: 170%  ;
     padding: 10px;
+    margin: 150px;
     
 }
 .faviortes {
     display: inline-block;
     position: relative;
-    top:65px;
-    left: -300px;
+    top : 100px;
+    right: 100px;
     cursor: pointer;
     color: black;
     text-decoration: none;
@@ -49,11 +50,11 @@ body {
 .reviews {
     display: inline-block;
     position: relative;
-    top: 65px;
+    top: 100px;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    left: -255px;
+    left: -60px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
@@ -63,11 +64,11 @@ body {
 .profile {
     display: inline-block;
     position: relative;
-    bottom: -65px;
+    bottom: -100px;
     color: black;
     font-size : 20px;
     text-decoration: none;
-    left: -200px;
+    right: 30px;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -81,11 +82,11 @@ body {
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    top: -10px;
+    top: 20px;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    left: 420px;
+    left: 550px;
 
 }
 .food_img {
@@ -93,7 +94,7 @@ body {
     position: relative;
     height: auto;
     width: 100%;
-    margin: 5px;
+    margin: 30px;
 
 }
 .lunch_img {
@@ -101,7 +102,7 @@ body {
     position: relative;
     height: auto;
     width: 100%;
-    top: -5px;
+    top: -20px;
 }
 .dinner {
     display: inline-block;
@@ -119,7 +120,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: -80px;
+    right: 120px;
 
 
 }
@@ -134,7 +135,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    right: 150px;
+    left: -140px;
 }
 .instragram {
     display: inline-block;
@@ -146,26 +147,29 @@ body {
 .contact_us {
     display: inline-block;
     position: relative;
+    top: 30px;
     font-size: 20px;
+    left: 200px;
 }
 .contact-link {
     display: inline-block;
     position: relative;
-    top: 50px;
-    right: 80px;
+    top: 80px;
+    left: 100px;
     text-decoration: none; 
 
 }
 .download_header {
     display: inline-block;
     position: relative;
-    font-size: 20px;
+    font-size: 19px;
+    top: 30px;
+    left: 550px;
 }
 .download {
     display: inline-block;
     position: relative;
-    top: 50px;
-    right: 140px;
-    width: 100px;
+    top: 60px;
+    left: 400px;
 
 }
