@@ -113,12 +113,13 @@ body {
     display: inline-block;
     position: relative;
     font-size: 20px;
+    left: 5px;
 }
 .whatsapp {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: -160px;
+    left: -80px;
 
 
 }
@@ -127,7 +128,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: -150px;
+    left: -50px;
 }
 .twitter {
     display: inline-block;
@@ -139,7 +140,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    right: 100px;
+    right: 90px;
 
 }
 .contact_us {
@@ -151,15 +152,20 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    right: 120px;
+    right: 80px;
     text-decoration: none; 
 
+}
+.download_header {
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
 }
 .download {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: -250px;
+    right: 140px;
     width: 100%;
 
 }
