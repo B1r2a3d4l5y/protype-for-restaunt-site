@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: yellowgreen;
+}
+.Signup_premuimn {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 60px;
+}
+
+.paragrah_benifits {
+    display: inline-block;
+    position: relative;
+    font-size: 30px;
+}
+.signup_header {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+img {
+    display: inline-block;
+    position: relative;
+    height: auto;
+    width: 100%;
+
+}
+.name {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    left: 30px;
+    width: 50%;
+}
+.email {
+    display: inline-block;
+    position: relative;
+    top: 200px;
+    width: 50%;
+    left: 30px;
+
+}
+.submit {
+    display: inline-block;
+    position: relative;
+    top: 300px;
+    right: 200px;
+}
