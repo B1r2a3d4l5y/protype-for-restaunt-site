@@ -90,6 +90,7 @@ body {
     cursor: pointer;
     
 }
+
 .premiuim {
     display: inline-block;
     position: relative;
@@ -108,7 +109,8 @@ body {
     display: inline-block;
     position: relative;
     height: auto;
-    width: 200%
+    width: 200%;
+    margin: 10px;
 
 }
 .lunch_img {
