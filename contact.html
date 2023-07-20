@@ -14,28 +14,29 @@
             <div class="contact col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 >Contact </h1>
                 <div class="text">
-                    <span><p >Please Send us a message so we can reserve your table or just send us a message </p></span>
+                    <span><p >Please Send us a message so we can reserve your table or just send us an enquiry </p></span>
                 </div>
                 <form class="form col-lg-6 col-md-6 col-sm-12 col-xs-12" id="form">
                     <div class="form_input">
                         <label for="name">
-                            <input type="text" id="name" class="name" name="Name" placeholder="Name">
-                            <span class="error text-danger" id="errorname"></span>
+                            
+                            <input type="text" id="name" class="name" name="Name" placeholder="Name*">
+                            <span class="errorname text-danger" id="errorname"></span>
+                            
 
                         </label>
                         <label for="email">
-                            <input type="email" id="email" class="email" id="email" name="email" placeholder="Email">
-                            <span class="errorEmail text text-danger"></span>
+                            <input type="email" id="email" class="email" id="email" name="email" placeholder="Email*">
+                            <span class="errorEmail text text-danger" id="emailErr" ></span>
 
                         </label>
                         <label for="phone">
-                            <input type="tel" id="phone" class="phone" name="telephone" placeholder="Phone">
-                            <span class="phoneErr" id="phoneErr"></span>
-                        
+                            <input type="tel" id="phone" class="phone"  placeholder="Phone *">
+                        <span class="phoneErr text text-danger" id="phoneERR" ></span>
 
                         </label>
                         <label for="message">
-                            <textarea class="message" cols="40" rows="5" id="message" name="message">Write your message</textarea>
+                            <textarea class="message" cols="40" rows="5" id="message" name="message">Write your message*</textarea>
                             <span class="messageErr text text-danger" id="messageErr"></span>
                             
 
@@ -49,7 +50,7 @@
                         
 
                        
-                        <button type="subt" class="submit btn btn-success" id="submit">Submit Message</button>
+                        <button type="submit" class="contact btn btn-success" id="submit">Submit Message</button>
                     </div>
                 </form>
                    
@@ -61,14 +62,14 @@
             </div>
         </div>
     </div>
-    <footer>
+    <footer >
         <ul class="nav">
             <li><h2 class="post">Postal Code</h2></li>
             <li ><p class="postal">Company Name inc.9863-9867 Mailroad cambrige MGO 99HT</p></li>
             <li><h2>Phones and Fax</h2></li>
             <li><p class="phone_number">Phone : +18006036035 </p></li>
             <li><p class="fax">Fax: 18008899898</p></li>
-            <li><h2>Email</h2></li>
+            <li><h2 class="email_header">Email</h2></li>
             <li><p class="email_link">Mail.demolink.org</p></li>
         </ul>
     </footer>
