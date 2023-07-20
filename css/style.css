@@ -68,7 +68,7 @@ body {
     color: black;
     font-size : 20px;
     text-decoration: none;
-    right: 30px;
+    left: 20px;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -82,11 +82,11 @@ body {
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    top: 20px;
+    top: 120px ;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    left: 550px;
+    left: 100px;
 
 }
 .food_img {
@@ -115,12 +115,13 @@ body {
     position: relative;
     font-size: 20px;
     left: 5px;
+    margin: 20px;
 }
 .whatsapp {
     display: inline-block;
     position: relative;
     top: 50px;
-    right: 120px;
+    right: 100px;
 
 
 }
@@ -135,7 +136,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: -140px;
+    left: -132px;
 }
 .instragram {
     display: inline-block;
@@ -147,15 +148,15 @@ body {
 .contact_us {
     display: inline-block;
     position: relative;
-    top: 30px;
+    top: 20px;
     font-size: 20px;
-    left: 200px;
+    left: 100px;
 }
 .contact-link {
     display: inline-block;
     position: relative;
-    top: 80px;
-    left: 100px;
+    top: 35px;
+    left :10px;
     text-decoration: none; 
 
 }
@@ -163,13 +164,14 @@ body {
     display: inline-block;
     position: relative;
     font-size: 19px;
-    top: 30px;
-    left: 550px;
+    top: 10px;
+    left: 350px;
 }
 .download {
     display: inline-block;
     position: relative;
-    top: 60px;
-    left: 400px;
+    top: 35px;
+    right: -200px;
+    font-size: 10px;
 
 }
