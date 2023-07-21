@@ -13,10 +13,10 @@ body {
     display: inline-block;
     position: relative;
     right: 100px;
-    top: 10px;
+    margin-bottom: -100px;
     color: black;
-    font-size: 50px;
-    right: 10px;
+    font-size: 100px;
+    margin-right: 1500px;
 
 
 }
@@ -27,7 +27,7 @@ body {
     display: inline-block;
     position: relative;
     bottom: -20px;
-    right: 30px;
+    right: 300px;
     width: 170%  ;
     padding: 10px;
     margin: 150px;
@@ -35,9 +35,9 @@ body {
 }
 .faviortes {
     display: inline-block;
-    position: relative;
-    top : 100px;
-    right: 100px;
+    position: absolute;
+    top: 220px;
+    right: 2200px;
     cursor: pointer;
     color: black;
     text-decoration: none;
@@ -49,12 +49,12 @@ body {
 
 .reviews {
     display: inline-block;
+   top: 165px;
     position: relative;
-    top: 100px;
     color: black;
     text-decoration: none;
     font-size: 20px;
-    left: -60px;
+    margin-left: -2007px;
     font-weight: bold;
     text-align: center;
     justify-content: center;
@@ -64,7 +64,7 @@ body {
 .profile {
     display: inline-block;
     position: relative;
-    bottom: -100px;
+    bottom: -86px;
     color: black;
     font-size : 20px;
     text-decoration: none;
@@ -77,38 +77,42 @@ body {
 
 .premiuim {
     display: inline-block;
-    position: relative;
+    position: absolute;
     color: black;
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    top: 120px ;
+    top: 220px ;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    left: 100px;
+    left: 500px;
 
 }
 .food_img {
     display: inline-block;
     position: relative;
     height: auto;
-    width: 100%;
-    margin: 30px;
+    width: 200%;
+    margin: 10px , 5px;
+    right: 200px;
 
 }
 .lunch_img {
     display: inline-block;
     position: relative;
     height: auto;
-    width: 100%;
-    top: -20px;
+    width: 200%;
+    top: -5px;
+    right: 200px;
 }
 .dinner {
     display: inline-block;
     position: relative;
     height:auto;
-    width: 100%;
+    width: 200%;
+    top: -5px;
+    right:200px;
 }
 .socials {
     display: inline-block;
@@ -121,7 +125,7 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    right: 100px;
+    right: 120px;
 
 
 }
@@ -136,13 +140,13 @@ body {
     display: inline-block;
     position: relative;
     top: 50px;
-    left: -132px;
+    left: -140px;
 }
 .instragram {
     display: inline-block;
     position: relative;
     top: 50px;
-    right: 90px;
+    right: 95px;
 
 }
 .contact_us {
@@ -155,7 +159,7 @@ body {
 .contact-link {
     display: inline-block;
     position: relative;
-    top: 35px;
+    top: 45px;
     left :10px;
     text-decoration: none; 
 
