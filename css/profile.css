@@ -1,0 +1,28 @@
+:berfore::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-color: yellowgreen;
+}
+.instagram {
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+}
+.twitter {
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+}
+.contact {
+    display: inline-block;
+    position: relative;
+    border: none;
+    color: white;
+
+}
